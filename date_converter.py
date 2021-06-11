@@ -19,4 +19,5 @@ def day_number_to_swedish(day):
 def today_by_number():
     dt_cest_now = datetime.datetime.now(pytz.timezone('Europe/Stockholm'))
     today = dt_cest_now.isoweekday()
+    print(today)
     return int(today)
