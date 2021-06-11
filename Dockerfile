@@ -8,3 +8,6 @@ COPY dateConverter.py /
 
 CMD [ "python", "hello_there.py"]
 
+CMD [ "python", "dateConverter.py"]
+
+
