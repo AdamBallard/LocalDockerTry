@@ -1,6 +1,4 @@
-FROM python:3.7-alpine
+#!/usr/bin/env python3
 
-COPY hello_there.py /
-
-CMD [ "python", "-c", "print('Hi there')"]
+print('hello there!')
 
