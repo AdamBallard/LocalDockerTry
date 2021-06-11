@@ -2,7 +2,7 @@ FROM python:3.7-alpine
 
 RUN pip install requests
 
-RUN pip intall pytz
+RUN pip install pytz
 
 COPY hello_there.py /
 
