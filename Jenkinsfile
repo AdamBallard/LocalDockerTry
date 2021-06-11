@@ -15,5 +15,19 @@ pipeline {
           """
       }
     }
+    stage ("Build") {
+      steps {
+        sh """
+          docker build -t dateConverter .
+          """
+      }
+    }
+    stage("run") {
+      steps {
+        sh """
+          docker run --rm dateConverter
+          """
+      }
+    }
   }
 }
