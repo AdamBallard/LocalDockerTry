@@ -1,6 +1,11 @@
 pipeline {
   agent any
   stages {
+    stage('Install dependencies') {
+       steps {
+          sh 'pip install pytz'
+         }
+       }
     stage ("Build Modules") {
       steps {
         sh """
