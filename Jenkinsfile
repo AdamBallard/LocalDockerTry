@@ -11,9 +11,8 @@ pipeline {
     stage("run pythonscripts") {
       steps {
         sh """
-        docker run --rm hello_there
         docker run --rm date_converter
-        
+        docker run --rm hello_there
         """
       }
     }
