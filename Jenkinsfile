@@ -18,14 +18,14 @@ pipeline {
     stage ("Build dateconverter") {
       steps {
         sh """
-          docker build -t dateConverter .
+          docker build -t date_converter .
           """
       }
     }
     stage("run dateconverter") {
       steps {
         sh """
-          docker run --rm dateConverter
+          docker run --rm date_converter
           """
       }
     }
