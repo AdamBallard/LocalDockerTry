@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage ("Build hello there") {
+    stage ("Build requirements") {
       steps {
         sh """
           docker build -t hello_there .
