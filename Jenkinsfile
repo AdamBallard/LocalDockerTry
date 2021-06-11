@@ -8,16 +8,15 @@ pipeline {
           """
       }
     }
-    stage("run hello there") {
+    stage("run pythonscripts") {
       steps {
-        sh "docker run --rm hello_there"
+        sh """
+        docker run --rm hello_there
+        docker run --rm date_converter
+        
+        """
       }
     }
-    
-    stage("run dateconverter") {
-      steps {
-        sh "docker run --rm date_converter"
-      }
-    }
+
   }
 }
