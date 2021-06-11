@@ -2,6 +2,8 @@ FROM python:3.7-alpine
 
 RUN pip install requests
 
+RUN pip intall pytz
+
 COPY hello_there.py /
 
 COPY dateConverter.py /
