@@ -10,17 +10,13 @@ pipeline {
     }
     stage("run hello there") {
       steps {
-        sh """
-          docker run --rm hello_there
-          """
+        sh "docker run --rm hello_there"
       }
     }
     
     stage("run dateconverter") {
       steps {
-        sh """
-          docker run --rm date_converter
-          """
+        sh "docker run --rm date_converter"
       }
     }
   }
