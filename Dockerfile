@@ -6,7 +6,7 @@ RUN pip install pytz
 
 COPY hello_there.py /
 
-COPY dateConverter.py /
+COPY date_converter.py /
 
 CMD [ "python", "hello_there.py"]
 
