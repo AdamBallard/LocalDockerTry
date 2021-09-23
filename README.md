@@ -15,7 +15,7 @@
 	* GitLab
 	* SonarQube
 
-4)	[GitLab](gitlab)
+4)	[GitLab](#gitlab)
 
 	* SSH
 	* Repository
