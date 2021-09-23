@@ -8,15 +8,15 @@
 
 3)	[Testing Environments and Tools](#testing-environments-and-tools)
 
-	* Java JDK
-	* Maven
-	* intelliJ
-	* jUnit
-	* Cucumber
-	* Test & Feedback
-	* Jenkins
-	* SonarQube
-	* jMeter
+	1) Java JDK
+	2) Maven
+	3) intelliJ
+	4) jUnit
+	5) [Cucumber](#cucumber)
+	6) Test & Feedback
+	7) Jenkins
+	8) SonarQube
+	9) jMeter
 
 4)	[GitLab](#gitlab)
 
