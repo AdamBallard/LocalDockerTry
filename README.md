@@ -3,18 +3,23 @@
 ##				Table of Contents
 
 1)	Documentation
-2)	Testingtools
+
+2) 	Azure DevOps
+
+3)	Testingtools
+
 	* jUnit
 	* Cucumber
 	* Test & Feedback
 	* Jenkins
 	* GitLab
 	* SonarQube
-3)	GitLab
+
+4)	GitLab
+
 	* SSH
 	* Repository
 	* Webhook 
-	* Terminal 
-4) 	Azure DevOps
+	* Terminal
 
 
