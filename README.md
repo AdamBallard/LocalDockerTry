@@ -4,16 +4,17 @@
 
 1)	Documentation
 2)	Testingtools
-		* jUnit
-		* Cucumber
-		* Test & Feedback
-		* Jenkins
-		* GitLab
-		* SonarQube
+	* jUnit
+	* Cucumber
+	* Test & Feedback
+	* Jenkins
+	* GitLab
+	* SonarQube
 3)	GitLab
-		* SSH
-		* Repository
-		* Webhook 
-		* Terminal 
+	* SSH
+	* Repository
+	* Webhook 
+	* Terminal 
 4) 	Azure DevOps
+
 
