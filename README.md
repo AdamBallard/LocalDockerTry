@@ -12,8 +12,8 @@
 	* Cucumber
 	* Test & Feedback
 	* Jenkins
-	* GitLab
 	* SonarQube
+	* jMeter
 
 4)	[GitLab](#gitlab)
 
@@ -38,7 +38,59 @@
 
 
 
-###				Testing Environments and Tools	
+###				Testing Environments and Tools
+
+
+####			jUnit
+
+
+
+
+
+
+
+####			Cucumber
+
+
+
+
+
+
+
+
+####			Test & Feedback
+
+
+
+
+
+
+
+
+####			Jenkins
+
+
+
+
+
+
+
+
+
+####			SonarQube
+
+
+
+
+
+
+
+
+
+####			jMeter
+
+
+
 
 
 
