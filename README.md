@@ -14,16 +14,16 @@
 	4) jUnit
 	5) [Cucumber](#cucumber)
 	6) Test & Feedback
-	7) Jenkins
+	7) [Jenkins](#jenkins)
 	8) SonarQube
 	9) jMeter
 
 4)	[GitLab](#gitlab)
 
-	* SSH
-	* Repository
-	* Webhook 
-	* Terminal
+	1) SSH
+	2) Repository
+	3) Webhook 
+	4) Terminal
 
 
 
@@ -207,11 +207,32 @@ In Jenkins the Cucumber Reports plugin merge these files together. More about th
 
 ####			Jenkins
 
+> :warning: **You will need Java installed on your computer to run Jenkins locally**
+
+#####			Jenkins install locally 
+
+There are multiple ways to run Jenkins locally. This guide will explain how to do it by using a WAR-file. The file contains compiled java classes for the web application.
+
+1) Download the jenkins.war file from [Jenkins download](https://jenkins.io/download/) here. Make sure to download the Generic Java Package under LTS.
+2) Start a terminal and go to the same directory as the jenkins.war file.
+3) Run the file by typing: java –jar jenkins.war --httpPort=8080
+The httpPort==8080 is the port you choose to open the jenkins server on. If you wish to replace this by some other port, that works fine aswell. Just make sure it is open and free.
+4) Open your prefered browser and navigate to: 127.0.0.1:8080 this address will change if you chose to open jenkins on a different port. Just adjust the last 4 digits accordingly. 
+
+5) As a first time user you will be required to enter a password. The password will be saved in a file locally. Jenkins will provide you with the pathway to it.
+
+6) Install the suggested plugins. 
+
+All pipelines and configurations you do on Jenkins will be saved locally so even if you close your server the configurations, password and plugins will remain locally. 
+
+
+
+#####			Jenkins Reversed Proxy
 
 
 
 
-
+#####			Jenkins Remote 
 
 
 
